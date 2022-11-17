@@ -1,0 +1,146 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    font-family: Georgia, sans-serif;
+    font-size: 1rem;
+    color: rgb(120, 120, 120);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#logo {
+    display: inline-flex;
+}
+
+#blog-title {
+    justify-content: right;
+}
+
+#blog-title h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2rem;
+}
+
+#blog-title p {
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#chocolate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#top-level-heading p {
+    text-transform: uppercase;
+    color: #AEAEAC;
+}
+
+#print {
+    display: flex;
+}
+
+#print p {
+    text-transform: uppercase;
+    color: #AEAEAC;
+}
+
+#recipe-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+#notebook {
+    position: relative;
+}
+
+#recipe {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+#recipe img {
+    width: 100%;
+}
+
+#first-half, #second-half {
+    display: flex;
+    flex-direction: column;
+    color: rgb(120, 120, 120);
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    max-width: 40%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#trademark {
+    text-align: center;
+}
+
+#bio {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bio-info {
+    max-width: 65%;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Georgia, sans-serif;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #BC7058;
+    color: white;
+    text-transform: uppercase;
+    border: white;
+}
+
+
